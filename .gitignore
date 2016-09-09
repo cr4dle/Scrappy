@@ -1,0 +1,6 @@
+packages/*
+Scrapper/bin/*
+Scrapper/obj/*
+ScrapperWeb/bin/*
+ScrapperWeb/obj/*
+ScrapperWeb/node_modules/*

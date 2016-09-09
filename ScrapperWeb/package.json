@@ -1,0 +1,20 @@
+{
+  "name": "scrapperweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+    "live": "webpack && uglifyjs ./dist/bundle.js -c -m -o ./dist/bundle.min.js --source-map ./dist/bundle.min.js.map"
+  },
+  "keywords": [],
+  "author": "Cr4DLe",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "uglify-js": "^2.7.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "dependencies": {},
+  "description": ""
+}
